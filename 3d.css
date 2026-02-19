@@ -1281,7 +1281,7 @@ width:0px;
 
     .name {
         position: absolute;
-        top:30px;
+        top:20px;
         left:45%;
      
         img{
@@ -1309,13 +1309,13 @@ width:0px;
 
         .skill_1{
 
-            width:400px;
-            height:400px;
+            width:370px;
+            height:370px;
             /* background-color: #f3ece7; */
             /* border: 1px solid #E87A28; */
             position: relative;
             img{
-                width:60%;
+                width:55%;
                 margin-left: 20%;
                 margin-top: 10%;
                 
@@ -1327,6 +1327,7 @@ width:0px;
                 font-family: "Londrina Solid", monospace;
                   /* font-optical-sizing: auto; */
                 font-weight: 400;
+                font-size: 14px;
                 letter-spacing: 2px;
                 font-style: normal;
                 color:#E87A28;
@@ -1334,36 +1335,36 @@ width:0px;
 
             .Agility{
                 top:10%;
-                left:43%;
+                left:42%;
             }
 
             .Reliability{
                 top:20%;
-                left:60%;
+                left:55%;
             }
             .Speed{
-                top:45%;
-                left:52%;
+                top:44%;
+                left:45%;
             }
 
             .Patience{
                 top:70%;
-                left:30%;
+                left:20%;
             }
 
             .Creativity{
-                top:82%;
-                right:25%;
+                top:78%;
+                right:27%;
             }
 
             .Stability{
-                top:68%;
+                top:66%;
                 left:10%;
             }
 
             .Dynamic{
-                top:42%;
-                right:20%;
+                top:40%;
+                right:18%;
             }
 
             .Comical{
@@ -1635,7 +1636,7 @@ width:0px;
         background-color: transparent;
 
         border:none;
-        margin-left: 30%;
+        margin-left: 22%;
         padding-top: 10%;
         cursor: pointer;
 
@@ -1697,7 +1698,7 @@ z-index: 2; */
 
 
     .model{
-        width:400px;
+        width:100%;
         /* border:1px solid  #E87A28; */
         /* background-color: #e4cbb8; */
         padding-top:5%;
@@ -1711,7 +1712,7 @@ z-index: 2; */
         border: none;
         position:relative;
         top:8%;
-        left:48%;
+        left:20%;
         z-index: 1;
         cursor: pointer;
         
@@ -2434,7 +2435,7 @@ text-align: left;
 	            border-color:transparent #644C3D #644C3D transparent ;
 	            position:relative;
 	            top:-15px;
-	          left:20%;
+	          left:3%;
             }
 /*             
             .arrow_t_out{
@@ -2467,7 +2468,7 @@ width:0px;
 	            border-color:transparent #E87A28 #E87A28 transparent ;
 	            position:relative;
 	            top:5px;
-	            left:60%;
+	            left:40%;
             }
             
             .mk{
