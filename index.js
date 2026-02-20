@@ -58,7 +58,7 @@ $(document).ready(function () {
             const content = document.getElementById('model_container');
             const button = document.querySelector("button.change1");
 
-           button.addEventListener('click', function() { content.innerHTML = '<model-viewer src="/public/zz1/designer.glb" camera-controls style="width:380px; height: 380px; "></model-viewer>'; }); 
+           button.addEventListener('click', function() { content.innerHTML = '<model-viewer src="/public/zz1/designer.glb" camera-controls poster="/public/loading.png" style="width:380px; height: 380px; "></model-viewer>'; }); 
 
 
 
@@ -129,13 +129,13 @@ $(document).ready(function () {
             const content2 = document.getElementById('model_container');
             const button2 = document.querySelector("button.reset");
 
-           button2.addEventListener('click', function() { content2.innerHTML = '<model-viewer src="/public/zz1/first.glb" camera-controls style="width:380px; height: 380px; "></model-viewer>'; }); 
+           button2.addEventListener('click', function() { content2.innerHTML = '<model-viewer src="/public/zz1/first.glb" camera-controls poster="/public/loading.png" style="width:380px; height: 380px; "></model-viewer>'; }); 
 
             document.getElementById('replaceButton2'); 
             const content3 = document.getElementById('model_container');
             const button3 = document.querySelector("button.change2");
 
-           button3.addEventListener('click', function() { content3.innerHTML = '<model-viewer src="/public/zz1/marketing.glb" camera-controls style="width:380px; height: 380px; "></model-viewer>'; }); 
+           button3.addEventListener('click', function() { content3.innerHTML = '<model-viewer src="/public/zz1/marketing.glb" camera-controls poster="/public/loading.png" style="width:380px; height: 380px; "></model-viewer>'; }); 
 
 
   });

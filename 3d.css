@@ -1680,6 +1680,7 @@ z-index: 2; */
         z-index: 1111;
     }
    button.close_mail{
+    cursor: pointer;
     width:50px;
     height:50px;
     background-image: url('/public/close_button.png');
@@ -1862,6 +1863,7 @@ background-size: 20px 20px;
 
             
             button.close_nomnom{
+                cursor: pointer;
                 width:50px;
                 height:50px;
                 border:none;
@@ -1949,6 +1951,7 @@ justify-content: space-around;
                 text-align: center;
 
                 button.close_freq{
+                cursor: pointer;
                 width:50px;
                 height:50px;
                 border:none;
@@ -1992,6 +1995,7 @@ justify-content: space-around;
                 text-align: center;
 
                 button.close_tea{
+                    cursor: pointer;
                 width:50px;
                 height:50px;
                 border:none;
@@ -2179,6 +2183,7 @@ text-align: left;
                 padding-bottom: 5%;
         
                 button.close_drip{
+                    cursor: pointer;
                     border:none;
                     background-color: transparent;
                     width:50px;
@@ -2289,6 +2294,7 @@ text-align: left;
                 display: none;
 
                 button.close_wy{
+                    cursor: pointer;
                     width:50px;
                     height:50px;
                     background-color: transparent;
@@ -2400,6 +2406,7 @@ text-align: left;
                 flex-wrap: wrap;
 
                 button.close_matsu{
+                    cursor: pointer;
                      width:50px;
                     height:50px;
                     background-color: transparent;
