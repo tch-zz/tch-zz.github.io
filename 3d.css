@@ -676,6 +676,9 @@ text-align: left;
         width:90%;
         /* margin-left: 5px; */
     }
+    img:hover {
+    transform: scale(1.5);
+}
 }
 
 .nomnom_bottom{
@@ -701,6 +704,8 @@ justify-content: space-around;
         margin:2%;
 
     }
+    img:hover {
+    transform: scale(1.5);}
  }
 }
 
@@ -744,6 +749,8 @@ justify-content: space-around;
                     img{
                         width:70%;
                     }
+                       img:hover {
+    transform: scale(1.6);}
 .freq_text{
     text-align: left;
 }
@@ -790,6 +797,8 @@ justify-content: space-around;
                         width:20%;
                         margin-right: 5%;
                     }
+                       img:hover {
+    transform: scale(1.5);}
                     }
                    .target{
                     margin-top: 5%;
@@ -814,6 +823,8 @@ text-align: left;
                     img.done{
                         width:23%;
                     }
+                       img:hover {
+    transform: scale(1.5);}
                     }
                   
 
@@ -835,6 +846,8 @@ text-align: left;
                         width:60%;
                         display: flex;
                         flex-wrap: wrap;
+                           img:hover {
+    transform: scale(1.5);}
  img.UX1{
                         width:80%;
                          object-fit: cover;
@@ -846,6 +859,8 @@ text-align: left;
                         text-align: left;
                         width:40%;
                     }
+                       img:hover {
+    transform: scale(1.5);}
                              img.UX2{
                         width:75%;
                         height:75%;
