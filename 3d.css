@@ -590,6 +590,37 @@ background-size: 20px 20px;
             padding-top: 20px;
             display: none;
 
+             .title_Game{
+                text-align: center;
+
+                h5{
+           
+                font-family: "Londrina Solid", monospace;
+                display: inline-block;
+                margin:auto;
+                font-size: 36px;
+                font-weight: 400;
+                letter-spacing: 2px;
+                font-style: normal;
+                color:#F3ECD8;
+            }
+        }
+        .game_list{
+            width:100%;
+                display: flex;
+                /* flex-wrap: wrap; */
+                justify-content: space-around;
+               
+                padding: 5%;
+                li{
+                    cursor: pointer;
+                    margin-bottom: 5%;
+                    img{width:250px;
+
+                }
+        }
+    }
+
             .title_UX{
                 text-align: center;
 
@@ -634,7 +665,7 @@ background-size: 20px 20px;
                 margin: auto;
                 background-color: #F3ECD8;
                 position: relative;
-                top:-400px;
+                top:-880px;
                 display: none;
                 padding-left: 5%;
                 padding-bottom: 5%;
