@@ -88,6 +88,15 @@ $(document).ready(function () {
       $('.nomnom_content').css('display','none');
     });
 
+      $(".crm_li").click(function (event) {
+      $('.crm_content').css('display','block');
+    });
+
+      $(".close_crm").click(function (event) {
+      $('.crm_content').css('display','none');
+    });
+
+
       $(".freq_li").click(function (event) {
       $('.freq_content').css('display','block');
     });

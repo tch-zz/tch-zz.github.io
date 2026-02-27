@@ -608,12 +608,19 @@ background-size: 20px 20px;
 
         .UX_list{
             width:100%;
-                display: flex;
+                display: grid;
+                /* flex-wrap: wrap; */
                 justify-content: space-around;
+                grid-template-columns: repeat(auto-fill, 250px);
                 padding: 5%;
                 li{
                     cursor: pointer;
+                    margin-bottom: 5%;
                     img{width:250px;
+
+                }
+                .tea_li{
+                    margin-left: auto;
                 }
             }
         }
@@ -709,6 +716,85 @@ justify-content: space-around;
  }
 }
 
+}
+
+.crm_content{
+     width:90%;
+        
+     
+                margin: auto;
+                background-color: #F3ECD8;
+                position: relative;
+                top:-400px;
+                display: none;
+                padding-bottom: 5%;
+                padding-top: 2%;
+                text-align: center;
+
+                button.close_crm{
+                    cursor: pointer;
+                width:50px;
+                height:50px;
+                border:none;
+                background-color: transparent;
+                background-image: url(/public/close_button.png);
+                background-size:contain;
+                background-repeat: no-repeat;
+                position: absolute;
+                left: 92%;
+                top:10px;
+                }
+
+                 .crm_top{
+                    width:85%;
+                    margin:auto;
+                    text-align: left;
+
+                }
+
+                .crm_mid{
+                    width:90%;
+                    margin:auto;
+                    text-align: left;
+                    display: flex;
+                    .crm_mockup1{
+                        width:60%;
+                        img{
+                            width:100%;
+                        }
+                        img:hover {
+    transform: scale(1.6);}
+                    }
+
+                    .crm_strategy{
+                        width:40%;
+                        /* border: #504c49 1px solid; */
+                    }
+                }
+
+                .crm_explan{
+                    width:90%;
+                    margin:auto;
+                    text-align: left;
+                }
+                .crm_bottom{
+                    width:90%;
+                    margin:auto;
+                
+                    .crm_mockup2{
+                        width:100%;
+                        display: flex;
+                        img{
+                            width:50%;
+                        }
+                         img:hover {
+    transform: scale(1.6);}
+                    }
+
+                    .crm_outcome{
+                        text-align: left;
+                    }
+                }
 }
 
 .freq_content{
