@@ -639,10 +639,10 @@ background-size: 20px 20px;
 
         .UX_list{
             width:100%;
-                display: grid;
-                /* flex-wrap: wrap; */
+                display: flex;
+                flex-wrap: wrap;
                 justify-content: space-around;
-                grid-template-columns: repeat(auto-fill, 250px);
+                /* grid-template-columns: repeat(auto-fill, 250px); */
                 padding: 5%;
                 li{
                     cursor: pointer;
@@ -1299,7 +1299,7 @@ text-align: left;
                 margin:auto;
                 padding-top: 5%;
                 padding-left: 5%;
-                /* display: flex; */
+                
                 justify-content: space-around;
 
                 button.close_matsu{
