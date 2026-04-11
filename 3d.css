@@ -427,7 +427,7 @@
            height:400px;
            /* border: 1px solid #504c49; */
      top:50%;
-        left:35%;
+        left:30%;
         background-image: url(/public/letter.png);
             background-size:contain;
         background-repeat: no-repeat;
@@ -485,12 +485,13 @@ z-index: 2; */
       .reset{
         background-color: transparent;
         border: none;
+        width:60px;
         position:relative;
         top:8%;
-        left:48%;
+        left:85%;
         z-index: 1;
         cursor: pointer;
-        
+        /* border: #504c49 1px solid; */
         img{
             width:60px;
         }
@@ -665,7 +666,7 @@ background-size: 20px 20px;
                 margin: auto;
                 background-color: #F3ECD8;
                 position: relative;
-                top:-880px;
+                top:-990px;
                 display: none;
                 padding-left: 5%;
                 padding-bottom: 5%;
@@ -756,7 +757,7 @@ justify-content: space-around;
                 margin: auto;
                 background-color: #F3ECD8;
                 position: relative;
-                top:-400px;
+                top:-435px;
                 display: none;
                 padding-bottom: 5%;
                 padding-top: 2%;
@@ -835,7 +836,7 @@ justify-content: space-around;
                 margin: auto;
                 background-color: #F3ECD8;
                 position: relative;
-                top:-400px;
+                top:-435px;
                 display: none;
                 padding-bottom: 5%;
                 padding-top: 2%;
@@ -881,7 +882,7 @@ justify-content: space-around;
                 margin: auto;
                 background-color: #F3ECD8;
                 position: relative;
-                top:-400px;
+                top:-435px;
                 display: none;
                 padding-bottom: 5%;
                 padding-top: 2%;
