@@ -1,5 +1,18 @@
 $(document).ready(function () {
-          $(".Agility").hover(function (event) {
+      
+            $('.boxmenu').click(function() {
+    $('#closebox').attr('src', './public/head_box.png');
+ 
+        $('.sidemenu').css('display','block');
+       });
+        $('.close').click(function() {
+   $('.sidemenu').css('display','none');
+   $('#closebox').attr('src', './public/head_box2.png');
+  });
+  
+  $(".Agility").hover(function (event) {
+
+
         $('.agility2').css('display','block');},function(event){
         $('.agility2').css('display','none');
         });
@@ -133,6 +146,9 @@ $(document).ready(function () {
     $(".close_matsu").click(function (event) {
       $('.contain_matsu').css('display','none');
     });
+                 $('.boxmenu').click(function() {
+    $('#closebox').attr('src', './public/head_box.png');
+  });
 
             document.getElementById('resetbtn'); 
             const content2 = document.getElementById('model_container');
@@ -145,6 +161,7 @@ $(document).ready(function () {
             const button3 = document.querySelector("button.change2");
 
            button3.addEventListener('click', function() { content3.innerHTML = '<model-viewer src="/public/zz1/marketing.glb" camera-controls poster="/public/loading.png" style="width:380px; height: 380px; "></model-viewer>'; }); 
+
 
 
   });
