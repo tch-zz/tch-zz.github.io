@@ -2548,7 +2548,6 @@ img{
 
 
 @media (max-width: 440px) {
- 
 
     .name {
           
@@ -2560,6 +2559,7 @@ img{
         letter-spacing: 5%;
         width:30%;
         margin: auto;
+        border: #F37A08 1px solid;
        }
     }
   
@@ -2944,7 +2944,7 @@ img{
         img{
             width:100%;
              /* border: #F37A08 1px solid; */
-             padding-top: 7px;
+             padding-top: 12px;
             
         }
     }
