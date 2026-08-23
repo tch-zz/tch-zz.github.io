@@ -2698,14 +2698,14 @@ img{
         width:100%;
         padding:5%;
         justify-content: space-around;
-        align-items: center;
+        align-items: end;
         li{
             width:18%;
             text-align: center;
-             border: #F37A08 1px solid;
+             /* border: #F37A08 1px solid; */
             img{
                 width:90%;
-                 border: #F37A08 1px solid;
+                 /* border: #F37A08 1px solid; */
             }
             h4{
                  /* color:#2C6ACD; */
@@ -2715,13 +2715,14 @@ img{
                  font-size: 12px;
                  width:90%;
                  margin: auto;
+
+                
         
             }
-            h5{
-                font-size: 10px;
-                 font-weight:800;
-                 margin-top: 2%;
-            }
+     .donuttitle{
+                    font-size: 8px;
+                    margin-top: 2px;
+                 }
         }
 
         a{
