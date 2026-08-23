@@ -72,6 +72,11 @@
     color: #2C6ACD;
 }
 
+.orange{
+    color: #F37A08;
+
+}
+
 .white{
     color:#ffffff}
 
@@ -244,7 +249,7 @@
                 width:90%;
             }
             h4{
-                 color:#2C6ACD;
+                 /* color:#2C6ACD; */
                  letter-spacing: 5%;
                  margin-top: 2%;
                  font-weight: 800;
@@ -1458,7 +1463,7 @@ img{
                 width:90%;
             }
             h4{
-                 color:#2C6ACD;
+                 /* color:#2C6ACD; */
                  letter-spacing: 2%;
                  margin-top: 2%;
                  font-weight: 800;
@@ -2693,21 +2698,29 @@ img{
         width:100%;
         padding:5%;
         justify-content: space-around;
-        align-items: End;
+        align-items: center;
         li{
             width:18%;
             text-align: center;
+             border: #F37A08 1px solid;
             img{
                 width:90%;
+                 border: #F37A08 1px solid;
             }
             h4{
-                 color:#2C6ACD;
+                 /* color:#2C6ACD; */
                  letter-spacing: 2%;
                  margin-top: 2%;
                  font-weight: 800;
                  font-size: 12px;
                  width:90%;
                  margin: auto;
+        
+            }
+            h5{
+                font-size: 10px;
+                 font-weight:800;
+                 margin-top: 2%;
             }
         }
 
